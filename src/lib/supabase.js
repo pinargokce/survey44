@@ -8,7 +8,7 @@ function getSupabaseConfig() {
   
   // First try environment variables
   const envUrl = process.env.REACT_APP_SUPABASE_URL;
-  const envKey = process.env.REACT_APP_SUPABASE_ANON_KEY;
+  const envKey = process.env.REACT_APP_SUPABASE_KEY;
   
   console.log('Environment check:', { envUrl, envKey: envKey ? 'SET' : 'NOT_SET' });
   
