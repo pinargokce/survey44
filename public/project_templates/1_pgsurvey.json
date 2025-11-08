@@ -1,0 +1,68 @@
+{
+  "id": "pg_survey",
+  "name": "PG Survey (20 Likert Questions)",
+  "description": "A 20-question perception survey designed to assess the perceived liveliness of urban streetscapes based on street-level imagery.",
+  "author": "Pınar Gökçe Kılıç",
+  "year": "2025",
+  "category": "Academic Research",
+  "tags": ["official"],
+  "website": "https://doi.org/10.1016/j.landurbplan.2025.105368",
+  "huggingfaceDataset": "ping-mapping/try01",
+  "createdAt": "2025-11-04T00:00:00.000Z",
+  "config": {
+    "title": "Urban Perception Survey – Liveliness Evaluation",
+    "description": "Please evaluate the perceived liveliness of each streetscape image using a 1–10 scale.",
+    "logo": "https://api.surveyjs.io/private/Surveys/files?name=8fb3943d-2606-4486-88ad-a41ad27f4570",
+    "logoPosition": "right",
+    "settings": {
+      "showQuestionNumbers": "off",
+      "showProgressBar": "top",
+      "progressBarType": "questions",
+      "autoGrowComment": true,
+      "showPreviewBeforeComplete": "showAllQuestions",
+      "goNextPageAutomatic": true
+    },
+    "images": [],
+    "pages": [
+      {
+        "name": "page_template",
+        "title": "Image Rating Template",
+        "elements": [
+          {
+            "type": "image",
+            "name": "image_display",
+            "title": "Observe the streetscape below:",
+            "isRequired": true,
+            "imageCount": 1,
+            "imageSelectionMode": "huggingface_random",
+            "imageFit": "cover",
+            "randomImageSelection": true,
+            "imageSource": "huggingface"
+          },
+          {
+            "type": "matrix",
+            "name": "liveliness_rating",
+            "title": "How lively does this streetscape look?",
+            "isRequired": true,
+            "rows": [
+              { "value": "lively", "text": "Lively" }
+            ],
+            "columns": [
+              { "value": "1", "text": "1" },
+              { "value": "2", "text": "2" },
+              { "value": "3", "text": "3" },
+              { "value": "4", "text": "4" },
+              { "value": "5", "text": "5" },
+              { "value": "6", "text": "6" },
+              { "value": "7", "text": "7" },
+              { "value": "8", "text": "8" },
+              { "value": "9", "text": "9" },
+              { "value": "10", "text": "10" }
+            ]
+          }
+        ]
+      }
+    ],
+    "repeatPages": 20
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "participant_id": "participant_1762209140309_kdufv17gj",
+  "responses": {
+    "liveliness_rating": {
+      "lively": "2"
+    },
+    "liveliness_rating_1": {
+      "lively": "4"
+    },
+    "liveliness_rating_2": {
+      "lively": "2"
+    },
+    "liveliness_rating_3": {
+      "lively": "1"
+    },
+    "liveliness_rating_4": {
+      "lively": "2"
+    },
+    "liveliness_rating_5": {
+      "lively": "2"
+    },
+    "liveliness_rating_6": {
+      "lively": "2"
+    },
+    "liveliness_rating_7": {
+      "lively": "2"
+    },
+    "liveliness_rating_8": {
+      "lively": "6"
+    },
+    "liveliness_rating_9": {
+      "lively": "5"
+    },
+    "liveliness_rating_10": {
+      "lively": "7"
+    },
+    "liveliness_rating_11": {
+      "lively": "4"
+    },
+    "liveliness_rating_12": {
+      "lively": "8"
+    },
+    "liveliness_rating_13": {
+      "lively": "2"
+    },
+    "liveliness_rating_14": {
+      "lively": "10"
+    },
+    "liveliness_rating_15": {
+      "lively": "3"
+    }
+  },
+  "displayed_images": {
+    "image_display": [
+      "ping-mapping_try01_32_image"
+    ],
+    "image_display_1": [
+      "ping-mapping_try01_34_image"
+    ],
+    "image_display_2": [
+      "ping-mapping_try01_7_image"
+    ],
+    "image_display_3": [
+      "ping-mapping_try01_40_image"
+    ],
+    "image_display_4": [
+      "ping-mapping_try01_19_image"
+    ],
+    "image_display_5": [
+      "ping-mapping_try01_4_image"
+    ],
+    "image_display_6": [
+      "ping-mapping_try01_1_image"
+    ],
+    "image_display_7": [
+      "ping-mapping_try01_18_image"
+    ],
+    "image_display_8": [
+      "ping-mapping_try01_53_image"
+    ],
+    "image_display_9": [
+      "ping-mapping_try01_30_image"
+    ],
+    "image_display_10": [
+      "ping-mapping_try01_15_image"
+    ],
+    "image_display_11": [
+      "ping-mapping_try01_44_image"
+    ],
+    "image_display_12": [
+      "ping-mapping_try01_44_image"
+    ],
+    "image_display_13": [
+      "ping-mapping_try01_5_image"
+    ],
+    "image_display_14": [
+      "ping-mapping_try01_15_image"
+    ],
+    "image_display_15": [
+      "ping-mapping_try01_6_image"
+    ]
+  },
+  "survey_metadata": {
+    "completion_time": "2025-11-03T22:32:20.309Z",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "screen_resolution": "1920x1080",
+    "survey_version": "2.0-admin-proj_1762208066190_pnk2ehukn",
+    "project_id": "proj_1762208066190_pnk2ehukn"
+  },
+  "saved_at": "2025-11-03T22:32:20.309Z"
+}

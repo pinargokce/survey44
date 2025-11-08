@@ -1,0 +1,133 @@
+{
+  "id": "PG SURVEY",
+  "name": "PG SURVEY",
+  "description": "This study proposes the first comprehensive framework to guide image-based survey design for capturing perceptions of outdoor urban environments across different scenarios, addressing the lack of methodological standardisation in current research.",
+  "author": "Gu ei al.",
+  "year": "2025",
+  "category": "Academic Research",
+  "tags": [
+    "official"
+  ],
+  "website": "https://doi.org/10.1016/j.landurbplan.2025.105368",
+  "huggingfaceDataset": "Not provided.",
+  "createdAt": "2025-10-17T13:30:51.187Z",
+  "config": {
+    "title": "Effective perception survey",
+    "description": "This study proposes the first comprehensive framework to guide image-based survey design for capturing perceptions of outdoor urban environments across different scenarios, addressing the lack of methodological standardisation in current research.",
+    "logo": "https://api.surveyjs.io/private/Surveys/files?name=8fb3943d-2606-4486-88ad-a41ad27f4570",
+    "logoPosition": "right",
+    "settings": {
+      "showQuestionNumbers": "off",
+      "showProgressBar": "aboveheader",
+      "progressBarType": "questions",
+      "autoGrowComment": true,
+      "showPreviewBeforeComplete": "showAllQuestions"
+    },
+    "images": [],
+    "pages": [
+      {
+        "name": "page1",
+        "title": "Likert Scale Survey Questions",
+        "description": "Please answer the following questions.",
+        "elements": [
+          {
+            "type": "image",
+            "name": "likert_image",
+            "title": "See the below image:",
+            "isRequired": true,
+            "imageCount": 1,
+            "imageSelectionMode": "huggingface_random",
+            "imageFit": "cover",
+            "randomImageSelection": true,
+            "imageSource": "huggingface"
+          },
+          {
+            "type": "matrix",
+            "name": "likert",
+            "title": "Rate the image:",
+            "isRequired": true,
+            "imageCount": 1,
+            "minRateDescription": "1",
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageSource": "huggingface",
+            "maxRateDescription": "10",
+            "rows": [
+              
+              {
+                "value": "lively",
+                "text": "Lively"
+              }
+            
+            ],
+            "columns": [
+              {
+                "value": "1",
+                "text": "1"
+              },
+              {
+                "value": "2",
+                "text": "2"
+              },
+              {
+                "value": "3",
+                "text": "3"
+              },
+              {
+                "value": "4",
+                "text": "4"
+              },
+              {
+                "value": "5",
+                "text": "5"
+              },
+              {
+                "value": "6",
+                "text": "6"
+              },
+                
+              {
+                "value": "7",
+                "text": "7"
+              },
+              {
+                "value": "8",
+                "text": "8"
+              },
+              {
+                "value": "9",
+                "text": "9"
+              },
+              {
+                "value": "10",
+                "text": "10"
+              }
+              
+            ]
+          }
+        ]
+      },
+      {
+        "name": "page_1760707538596",
+        "title": "Pairwise Comparison Survey Questions",
+        "description": "Please answer the following questions.",
+        "elements": [
+         
+          {
+            "type": "imagepicker",
+            "name": "pairwise_lively",
+            "title": "Which streetscape is livelier?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "imageFit": "cover",
+            "randomImageSelection": true,
+            "imageSource": "huggingface"
+          }
+          
+          
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "participant_id": "participant_1762208600777_ksckzw62d",
+  "responses": {
+    "liveliness_rating": {
+      "lively": "6"
+    }
+  },
+  "displayed_images": {
+    "image_display": [
+      "ping-mapping_try01_3_image"
+    ]
+  },
+  "survey_metadata": {
+    "completion_time": "2025-11-03T22:23:20.776Z",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "screen_resolution": "1920x1080",
+    "survey_version": "2.0-admin-proj_1762208066190_pnk2ehukn",
+    "project_id": "proj_1762208066190_pnk2ehukn"
+  },
+  "saved_at": "2025-11-03T22:23:20.777Z"
+}

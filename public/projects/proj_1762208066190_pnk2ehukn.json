@@ -1,0 +1,47 @@
+{
+  "project": {
+    "id": "proj_1762208066190_pnk2ehukn",
+    "name": "PG Survey (20 Likert Questions) - New",
+    "description": "Based on PG Survey (20 Likert Questions)",
+    "createdAt": "2025-11-03T22:14:26.190Z",
+    "lastModified": "2025-11-03T22:14:26.190Z",
+    "templateId": "pg_survey",
+    "supabaseConfig": null,
+    "imageDatasetConfig": {
+      "enabled": true,
+      "datasetName": "ping-mapping/try01",
+      "supabaseUrl": "https://kvuizdelwxrpouowicrl.supabase.co",
+      "datasetInfo": {
+        "id": "ping-mapping/try01",
+        "description": "Dataset accessed via datasets-server API",
+        "author": "ping-mapping",
+        "lastModified": "2025-11-03T22:15:52.527Z",
+        "private": false,
+        "imageCount": 54
+      },
+      "supabaseConnectionStatus": {
+        "connected": true,
+        "projectInfo": {
+          "url": "https://kvuizdelwxrpouowicrl.supabase.co",
+          "bucketsCount": 2,
+          "surveyBucketExists": true,
+          "buckets": ["survey-images bucket", "survey-images"]
+        },
+        "lastTested": "2025-11-03T22:18:30.923Z"
+      }
+    },
+    "preloadedImages": [],
+    "preloadedAt": "2025-11-03T22:19:45.297Z",
+    "preloadedSource": "supabase",
+    "supabaseBucket": "survey-images",
+    "serverSetupComplete": true,
+    "serverSetupCompletedAt": "2025-11-07T19:23:07.383Z"
+  },
+  "surveyConfig": {
+    "title": "PG Survey (20 Likert Questions) - New",
+    "description": "Please evaluate the perceived liveliness of each streetscape image using a 1–10 scale.",
+    "logo": "https://api.surveyjs.io/private/Surveys/files?name=8fb3943d-2606-4486-88ad-a41ad27f4570",
+    "logoPosition": "right"
+  },
+  "version": "2.0"
+}
